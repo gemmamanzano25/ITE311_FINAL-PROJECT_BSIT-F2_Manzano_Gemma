@@ -1434,6 +1434,9 @@
     .toast-landing i {
       color: var(--cappuccino);
     }
+        body.dark-mode {
+      --cream: #1a1512; --warm-white: #241d18; --espresso: #fef7f0;
+    }
   </style>
 </head>
 <body>
@@ -1456,6 +1459,9 @@
       <a href="#pricing">Pricing</a>
     </div>
     <div class="nav-cta">
+            <button class="btn-nav-outline" id="darkModeToggle">
+        <i class="fas fa-moon"></i>
+      </button>
       <button class="btn-nav-outline" id="navLoginBtn">
         <i class="fas fa-sign-in-alt"></i> Log in
       </button>
@@ -2007,6 +2013,10 @@
       badges.forEach((badge, i) => {
         const factor = i === 0 ? 1 : -1;
         badge.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
+        
+            document.getElementById('darkModeToggle').addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
       });
     });
   </script>
