@@ -1996,6 +1996,9 @@
     document.getElementById('heroDemoBtn').addEventListener('click', showDemoModal);
     document.getElementById('ctaStartBtn').addEventListener('click', showRegisterModal);
     document.getElementById('ctaDemoBtn').addEventListener('click', showBookDemoModal);
+    document.getElementById('darkModeToggle').addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
 
     // Nav links smooth scroll
     document.querySelectorAll('.nav-links a').forEach(link => {
