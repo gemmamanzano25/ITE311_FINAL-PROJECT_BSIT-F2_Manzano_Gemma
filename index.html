@@ -1756,6 +1756,11 @@
 
   <!-- FOOTER -->
   <footer class="footer">
+        <div style="text-align: center; padding: 20px;">
+        <h3>Contact Us</h3>
+        <input type="email" id="contactEmail" placeholder="Enter email">
+        <button id="submitEmail">Submit</button>
+    </div>
     <div class="footer-inner">
       <div class="footer-brand">
         <a href="#" class="nav-logo">
@@ -2008,6 +2013,12 @@
         const factor = i === 0 ? 1 : -1;
         badge.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
       });
+
+          document.getElementById('submitEmail').addEventListener('click', () => {
+      let email = document.getElementById('contactEmail').value;
+      if(email) { alert('Thank you ' + email + '!'); }
+      else { alert('Please enter email'); }
+    });
     });
   </script>
 </body>
