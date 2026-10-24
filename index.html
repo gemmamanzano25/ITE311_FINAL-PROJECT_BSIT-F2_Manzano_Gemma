@@ -1462,9 +1462,6 @@
             <button class="btn-nav-outline" id="cartBtn">
         <i class="fas fa-shopping-cart"></i> <span id="cartCount">0</span>
       </button>
-            <button class="btn-nav-outline" id="darkModeToggle">
-        <i class="fas fa-moon"></i>
-      </button>
       <button class="btn-nav-outline" id="navLoginBtn">
         <i class="fas fa-sign-in-alt"></i> Log in
       </button>
@@ -2016,18 +2013,15 @@
       badges.forEach((badge, i) => {
         const factor = i === 0 ? 1 : -1;
         badge.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
-        
-            document.getElementById('darkModeToggle').addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-    });
-        let cartTotal = 0;
+    
+      });
+
+       let cartTotal = 0;
     document.getElementById('cartBtn').addEventListener('click', () => {
       cartTotal++;
       document.getElementById('cartCount').textContent = cartTotal;
       alert('Item added to cart!');
     });
-    
-      });
     });
   </script>
 </body>
