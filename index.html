@@ -2013,11 +2013,11 @@
       badges.forEach((badge, i) => {
         const factor = i === 0 ? 1 : -1;
         badge.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
-        
-            document.getElementById('darkModeToggle').addEventListener('click', () => {
+      });
+
+         document.getElementById('darkModeToggle').addEventListener('click', () => {
       document.body.classList.toggle('dark-mode');
     });
-      });
     });
   </script>
 </body>
