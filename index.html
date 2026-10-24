@@ -1765,6 +1765,11 @@
 
   <!-- FOOTER -->
   <footer class="footer">
+        <div style="text-align: center; padding: 20px;">
+        <h3>Contact Us</h3>
+        <input type="email" id="contactEmail" placeholder="Enter email">
+        <button id="submitEmail">Submit</button>
+    </div>
     <div class="footer-inner">
       <div class="footer-brand">
         <a href="#" class="nav-logo">
@@ -2015,11 +2020,8 @@
       const badges = document.querySelectorAll('.hero-float-badge');
       badges.forEach((badge, i) => {
         const factor = i === 0 ? 1 : -1;
-        badge.style.transform = `translate(${x * factor}px, ${y * factor}px)`;    
+        badge.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
       });
-
-       document.getElementById('darkModeToggle').addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
     });
       });
 
