@@ -1459,6 +1459,9 @@
       <a href="#pricing">Pricing</a>
     </div>
     <div class="nav-cta">
+            <button class="btn-nav-outline" id="cartBtn">
+        <i class="fas fa-shopping-cart"></i> <span id="cartCount">0</span>
+      </button>
             <button class="btn-nav-outline" id="darkModeToggle">
         <i class="fas fa-moon"></i>
       </button>
@@ -2017,6 +2020,15 @@
             document.getElementById('darkModeToggle').addEventListener('click', () => {
       document.body.classList.toggle('dark-mode');
     });
+    
+
+        let cartTotal = 0;
+    document.getElementById('cartBtn').addEventListener('click', () => {
+      cartTotal++;
+      document.getElementById('cartCount').textContent = cartTotal;
+      alert('Item added to cart!');
+    });
+    
       });
     });
   </script>
