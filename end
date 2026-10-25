@@ -1,0 +1,138 @@
+[33mcommit 59f80f44b6e29470730ecd523c2ab13ef05d20de[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 15:53:31 2026 +0800
+
+    success
+
+[33mcommit 2e11cb0826da367e6ac77d74a02f6bfd63aaad46[m
+Merge: da52402 89a2614
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:43:48 2026 +0800
+
+    success
+
+[33mcommit 89a26146b81b65cff8b683076176db9b159bd58d[m[33m ([m[1;32mfeature-cart[m[33m)[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:41:31 2026 +0800
+
+    succes
+
+[33mcommit da524028da82765037a6d1a49b6a6960cf9c6785[m
+Merge: f5cc5dc 903d511
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:35:49 2026 +0800
+
+    change
+
+[33mcommit 903d511b95065c22a9310c79ccecaf4f67e4acfe[m[33m ([m[1;32mfeature-dark-mode[m[33m)[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:33:05 2026 +0800
+
+    change
+
+[33mcommit f5cc5dcc067159041a1ff46c6a9416b4759d7e6d[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:28:33 2026 +0800
+
+    changes
+
+[33mcommit 640ca7d531d897975b61c99439dc9f3989e05d88[m
+Merge: 9d76a34 002e4a8
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:25:24 2026 +0800
+
+    Merge branch 'feature-dark-mode'
+
+[33mcommit 002e4a825f86407d85b41f890fcd33cfa2ae1af4[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:23:09 2026 +0800
+
+    changes
+
+[33mcommit 9d76a346792494b8a5f1df45cf0159b0ddc7f0d0[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:20:18 2026 +0800
+
+    changes
+
+[33mcommit 6ec24e62e25258ca0288b1e041a1cf9d05eb1531[m
+Merge: 948dc94 9f73d0c
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:15:43 2026 +0800
+
+    changes
+
+[33mcommit 948dc94244604ef446e2fd3e8263d9f775200a82[m
+Merge: 8af0d00 4307644
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:13:37 2026 +0800
+
+    changes
+
+[33mcommit 9f73d0cfce15ef1c5bbbf090469c28f3706457dd[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:08:11 2026 +0800
+
+    changes
+
+[33mcommit 432022a812dc18bb50bd45576042a16decc0dd72[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 02:02:45 2026 +0800
+
+    changes
+
+[33mcommit 43076447b831d8354d10712da523880bef2a0b40[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 01:59:19 2026 +0800
+
+    changes
+
+[33mcommit 8af0d00f13d1fa9c7e4976ecde772b875804a3d4[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 01:57:16 2026 +0800
+
+    success
+
+[33mcommit 68b16d404e10a9463afc9bc029e30ec526960813[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: d0941c0 e9d8369
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 01:34:20 2026 +0800
+
+    Merge branch 'feature-contact'
+
+[33mcommit d0941c014bf31935a8e2c726052ab0107d1e460f[m
+Merge: 5ac9345 858f384
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 01:32:57 2026 +0800
+
+    Merge branch 'feature-cart'
+
+[33mcommit 5ac93452baf713563e864b2db208e7a095546f5f[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 01:31:15 2026 +0800
+
+    changes
+
+[33mcommit e9d83693906be96c6bf87838820ee25fcd3217d8[m[33m ([m[1;31morigin/feature-contact[m[33m, [m[1;32mfeature-contact[m[33m)[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 01:27:42 2026 +0800
+
+    added footer contact form & contact form javascript
+
+[33mcommit 858f3845c7f73debc9fa1cb05ff3d44c78b63ced[m[33m ([m[1;31morigin/feature-cart[m[33m)[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 01:18:16 2026 +0800
+
+    added success
+
+[33mcommit 1d74e37128459dc8b30a9c0f075a99a46bcec6e5[m[33m ([m[1;31morigin/feature-dark-mode[m[33m)[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 01:09:12 2026 +0800
+
+    Added dark mode button and javascript
+
+[33mcommit 9326377899f9a64d67ac027cb76abafcb0d810c5[m
+Author: rhymcojpadua-maker <rhymcojpadua@gmail.com>
+Date:   Sun Oct 25 00:58:56 2026 +0800
+
+    Initial commit: Added SweetCrumbs landing page, README, and gitignore
