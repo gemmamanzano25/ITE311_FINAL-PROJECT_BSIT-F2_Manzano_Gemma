@@ -1,6 +1,6 @@
 # SweetCrumbs: Online Cake Ordering and Management System
 
-Student Name: Rhymco J. Padua
+Student Name: Gemma Manzano
 Course and Section: BSIT III-F2
 
 **Project Description:** 
