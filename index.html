@@ -1999,6 +1999,12 @@
     document.getElementById('darkModeToggle').addEventListener('click', () => {
       document.body.classList.toggle('dark-mode');
     });
+    let cartTotal = 0;
+    document.getElementById('cartBtn').addEventListener('click', () => {
+      cartTotal++;
+      document.getElementById('cartCount').textContent = cartTotal;
+      alert('Item added to cart!');
+    });
 
     // Nav links smooth scroll
     document.querySelectorAll('.nav-links a').forEach(link => {
@@ -2025,20 +2031,7 @@
         const factor = i === 0 ? 1 : -1;
         badge.style.transform = `translate(${x * factor}px, ${y * factor}px)`;
       });
-
-         document.getElementById('darkModeToggle').addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
     });
-<<<<<<< HEAD
-=======
-        let cartTotal = 0;
-    document.getElementById('cartBtn').addEventListener('click', () => {
-      cartTotal++;
-      document.getElementById('cartCount').textContent = cartTotal;
-      alert('Item added to cart!');
-    });
->>>>>>> feature-cart
-});
 
   </script>
 </body>
